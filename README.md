@@ -103,7 +103,7 @@ Cara membuat video dari ide sampai ekspor: [tonton di YouTube](https://youtu.be/
 
 ### Kebutuhan
 
-- **Windows 10/11 64-bit.** Aplikasi juga bisa dijalankan dari kode sumber di macOS, tapi belum diuji penuh. Caption akurat (Whisper) dan installer baru tersedia untuk Windows.
+- **Windows 10/11 64-bit.** Aplikasi juga bisa dijalankan dari kode sumber di macOS dan Linux. Caption akurat (Whisper) dan installer baru tersedia untuk Windows.
 - **Kunci API** (lihat [Kunci API](#kunci-api)) untuk:
   - Higgsfield;
   - satu penyusun cerita;
@@ -116,6 +116,7 @@ Butuh [Node.js](https://nodejs.org) versi LTS dan koneksi internet saat pertama 
 
 - **Windows:** klik 2x `START - WIN.bat`.
 - **macOS:** klik 2x `START - MAC.command`. Kalau muncul pesan tidak punya izin, buka Terminal di folder ini dan jalankan `chmod +x "START - MAC.command"` sekali. Kalau macOS memblokirnya, klik kanan file itu › Open.
+- **Linux:** jalankan `./START - LINUX.sh` (atau klik 2x di file manager). Kalau belum executable, jalankan `chmod +x "START - LINUX.sh"`.
 
 Saat pertama kali dibuka, START memasang semua kebutuhan (`npm install`), mengunduh Electron, dan menyusun aplikasinya. Ini butuh beberapa menit. Setelah itu aplikasi langsung terbuka setiap kali START diklik. Kalau folder ini dipindah ke OS lain, START otomatis memasang ulang kebutuhannya.
 

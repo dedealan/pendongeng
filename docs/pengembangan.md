@@ -3,8 +3,8 @@
 ## Persiapan
 
 - **Node.js LTS** (dikembangkan dengan Node 22) dan npm.
-- Windows 10/11 x64 untuk build installer dan fitur Whisper. Aplikasi bisa jalan di macOS lewat `npm run dev`,
-  tapi caption akurat (Whisper) belum tersedia di sana.
+- Windows 10/11 x64 untuk build installer dan fitur Whisper. Aplikasi bisa jalan di Linux dan macOS lewat `npm run dev`
+  atau skrip START, tapi caption akurat (Whisper) belum tersedia di sana.
 - Koneksi internet saat `npm install` (Electron mengunduh programnya sendiri; `ffmpeg-static` mengunduh FFmpeg
   sesuai OS).
 
